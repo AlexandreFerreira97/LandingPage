@@ -133,3 +133,63 @@ body{
     display: block;
     margin: 0 auto;
 }
+
+.formularioLog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.TituloLog{
+    display: flex;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.ParagrafoLogin{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.InputLog{
+    border: 4px solid white;
+    width: 250px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.ButaoLog{
+    padding: 15px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    border: 4px solid white;
+    width: 250px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.ButaoLog:hover{
+    background-color: gray;
+}
